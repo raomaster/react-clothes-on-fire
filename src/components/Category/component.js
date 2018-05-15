@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './component.css';
+import { Link } from 'react-router-dom';
 
-class Categories extends Component {
-  render() {
-    const category = this.props.category;
-    return (
-      <div>
-        <div className="App-category" key={this.props.index}>
-          <img
-            src={category.image}
-            className="App-category-front-image"
-            style={category.imageStyle}
-            alt=""
-          />
-          <div className="App-category-title" style={category.titleStyle}>
-            {category.name}
-          </div>
-        </div>
-      </div>
-    );
-  }
+function Categories({ category }) {
+  return (
+    <div className="App-category">
+      <img
+        src={category.image}
+        className="App-category-front-image"
+        style={category.imageStyle}
+        alt=""
+      />
+      <Link
+        to={`/category/${category.id}`}
+        className="App-category-title"
+        style={category.titleStyle}
+      >
+        {category.name}
+      </Link>
+    </div>
+  );
 }
 
 export default Categories;

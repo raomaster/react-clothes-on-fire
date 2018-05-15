@@ -6,6 +6,7 @@ import Cart from './../Cart/component';
 
 import DashBoard from './../Dashboard/component';
 import CategoryDetails from './../CategoryDetails/component';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -14,7 +15,9 @@ class App extends Component {
         <div className="App">
           <div className="App-header">
             <div className="App-title animated zoomIn">
-              <h2>CLOTHES ON FIRE</h2>
+              <Link to="/">
+                <h2>CLOTHES ON FIRE</h2>
+              </Link>
             </div>
             <Cart />
           </div>

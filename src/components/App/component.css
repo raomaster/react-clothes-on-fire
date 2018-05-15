@@ -1,18 +1,21 @@
 @import url(../../../node_modules/animate.css/animate.min.css);
 .App {
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+}
 
 .App-logo {
   height: 80px;
-  font-size: 70px; }
+  font-size: 70px;
+}
 
 .App-title {
   color: black;
   cursor: pointer;
   display: block;
   width: 360px;
-  margin: auto; }
+  margin: auto;
+}
 
 .App-header {
   background-color: #222;
@@ -23,30 +26,40 @@
   letter-spacing: 10px;
   background-size: cover;
   background-position: 0 -10px;
-  position: relative; }
-  .App-header a {
-    text-decoration: none;
-    color: black; }
+  position: relative;
+}
+
+.App-header a {
+  text-decoration: none;
+  color: black;
+}
 
 .App-intro {
-  font-size: large; }
+  font-size: large;
+}
 
 .App-categories {
   position: relative;
-  height: calc(100vh - 240px); }
+  height: calc(100vh - 220px);
+}
 
 .App-category {
   max-height: 50%;
   overflow: hidden;
-  position: relative; }
-  .App-category-front-image {
-    width: 100%;
-    display: block; }
-  .App-category-title {
-    z-index: 100;
-    font-size: 28px;
-    color: black;
-    position: absolute;
-    top: 20%;
-    text-transform: uppercase;
-    text-decoration: none; }
+  position: relative;
+}
+
+.App-category-front-image {
+  width: 100%;
+  display: block;
+}
+
+.App-category-title {
+  z-index: 100;
+  font-size: 28px;
+  color: black;
+  position: absolute;
+  top: 20%;
+  text-transform: uppercase;
+  text-decoration: none;
+}

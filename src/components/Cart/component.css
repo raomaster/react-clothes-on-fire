@@ -8,12 +8,7 @@
     width: 140px;
     border: 4px solid white;
     color: black;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3s; }
-    .Cart-button:hover {
-      background: black;
-      color: white; }
+    cursor: pointer; }
   .Cart-expanded-area {
     background: white;
     width: 360px;
@@ -56,7 +51,7 @@
     border-radius: 0;
     outline: none;
     cursor: pointer;
-    transition: all 0.3s; }
+    transition: all 0.2s; }
     .Cart-checkout-button:hover {
       background: black;
       color: white; }

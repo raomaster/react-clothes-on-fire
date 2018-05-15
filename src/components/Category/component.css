@@ -9,6 +9,22 @@
     position: relative;
 }
 
+
+
+.App-category-front-image {
+    width: 100%;
+    display: block;
+}
+
+.App-category-title {
+    z-index: 100;
+    font-size: 28px;
+    color: black;
+    position: absolute;
+    top: 20%;
+    text-transform: uppercase;
+}
+
 .App-category-front-image {
     width: 100%;
     display: block;
